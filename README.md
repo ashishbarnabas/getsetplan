@@ -1,6 +1,6 @@
-#Get Set Plan
+# Get Set Plan
 
-##Installation Steps:
+## Installation Steps:
 
 NOTE: you will need a few tools in your system before you can get the repo to work.
 1. Homebrew for mac
@@ -8,7 +8,7 @@ NOTE: you will need a few tools in your system before you can get the repo to wo
 3. Pip
 4. Virtualenv
 
-###To install the above:
+### To install the above:
 
 1. To install HomeBrew:
 #### /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -45,20 +45,20 @@ NOTE: you will need a few tools in your system before you can get the repo to wo
 #### http://127.0.0.1:8000/
 
 
-##To find files
+## To find files
 
-###HTML Files
+### HTML Files
 #### /src/templates/<html files>
 
-###LESS Files
+### LESS Files
 #### /src/static_raw/less/<less files>
 Note: Do not edit `/src/static_my_proj` or `../static_cdn` - files get compiled automatically here
 
-###JS Files
+### JS Files
 #### /src/static_raw/js/<js files>
 
 
-##To install dependencies use Bower
+## To install dependencies use Bower
 #### /src/bower.json
 Note: Update this and re run `grunt`
 
