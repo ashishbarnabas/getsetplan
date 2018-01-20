@@ -11,9 +11,9 @@ NOTE: you will need a few tools in your system before you can get the repo to wo
 ### To install the above:
 
 1. To install HomeBrew:
-<br />
+<br>
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-<br />
+<br>
 
 2. To install python2.7
 <br />
