@@ -43,7 +43,7 @@ this should install Pip as well. to check if pip has been installed
 `. bin/activate`
 <br />
 
-4. Create a folder named `src`. cd into it and clone repo within this
+4. Create a folder named `src`. cd into it and clone repo within this by using the command -->
 `mkdir src && cd src && git clone https://github.com/ashishbarnabas/getsetplan.git .`
 <br />
 
@@ -51,7 +51,7 @@ this should install Pip as well. to check if pip has been installed
 `grunt`
 <br />
 
-6. Server should be running at `http://127.0.0.1:8000/`
+6. Server should be running at:
 `http://127.0.0.1:8000/`
 
 
