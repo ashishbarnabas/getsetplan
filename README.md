@@ -7,6 +7,8 @@ NOTE: you will need a few tools in your system before you can get the repo to wo
 2. Python2.7
 3. Pip
 4. Virtualenv
+<br />
+<br />
 
 ### To install the above:
 
@@ -53,7 +55,8 @@ this should install Pip as well. to check if pip has been installed
 
 6. Server should be running at:
 `http://127.0.0.1:8000/`
-
+<br />
+<br />
 
 ## To find files
 
@@ -68,7 +71,8 @@ Note: Do not edit `/src/static_my_proj` or `../static_cdn` - files get compiled 
 
 ### JS Files
 `/src/static_raw/js/<js files>`
-
+<br />
+<br />
 
 ## To install dependencies use Bower
 `/src/bower.json`
