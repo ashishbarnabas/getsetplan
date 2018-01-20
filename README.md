@@ -15,8 +15,9 @@ NOTE: you will need a few tools in your system before you can get the repo to wo
 
 2. To install python2.7
 #### brew install python 
-- this should install Pip as well. to check if pip has been installed 
+this should install Pip as well. to check if pip has been installed 
 #### pip list
+<br>
 
 3. To install pip - if above step doesnt install pip
 #### https://pip.pypa.io/en/stable/installing/
