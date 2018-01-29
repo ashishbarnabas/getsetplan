@@ -59,9 +59,11 @@ this should install Pip as well. to check if pip has been installed
 
 7. Install Grunt CLI (if not already present)
 `npm install -g grunt-cli`
+<br />
 
 8. Install Grunt
 `npm install grunt --save-dev`
+<br />
 
 9. Run Grunt
 `grunt`
