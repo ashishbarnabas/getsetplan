@@ -57,11 +57,17 @@ this should install Pip as well. to check if pip has been installed
 `mkdir src && cd src && git clone https://github.com/ashishbarnabas/getsetplan.git .`
 <br />
 
-7. Run Grunt
+7. Install Grunt CLI (if not already present)
+`npm install -g grunt-cli`
+
+8. Install Grunt
+`npm install grunt --save-dev`
+
+9. Run Grunt
 `grunt`
 <br />
 
-8. Server should be running at:
+10. Server should be running at:
 `http://127.0.0.1:8000/`
 <br />
 <br />
