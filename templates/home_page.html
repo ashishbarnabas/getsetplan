@@ -5,6 +5,15 @@
         <link rel="stylesheet" type="text/css" href="{% static 'css/styles.min.css' %}" />
         <link href="https://fonts.googleapis.com/css?family=Fauna+One|Prata" rel="stylesheet"> 
         <script src="{% static 'bower_components/jquery/dist/jquery.min.js' %}"></script>
+
+        <link href="{% static 'bower_components/fullcalendar/dist/fullcalendar.css' %}" rel='stylesheet' />
+        <link href="{% static 'bower_components/fullcalendar/dist/fullcalendar.min.css' %}" rel='stylesheet' />
+
+        <script src="{% static 'bower_components/moment/min/moment.min.js' %}"></script>
+        <script src="{% static 'bower_components/fullcalendar/dist/fullcalendar.js' %}"></script>
+
+        <script src="{% static 'js/built.js' %}"></script>
+        
         {% load bootstrap3 %}
         {% bootstrap_css %}
         {% bootstrap_javascript %}
@@ -44,6 +53,7 @@
                     {% endbuttons %}
                 </form>
             </div>
+            <div id='calendar'></div>
         </div>
         
     </body>
