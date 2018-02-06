@@ -1,5 +1,3 @@
-//JS test1//#adslnasdl
-//#blahhhhhhsss
 //JS test2
 var testjs2 = "hello";
 var testjs2a = "testing";
