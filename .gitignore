@@ -1,3 +1,4 @@
 /static_my_proj/bower_components/*
 db.sqlite3
 /node_modules/*
+/GSP/*.pyc
