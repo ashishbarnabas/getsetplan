@@ -31,6 +31,14 @@ this should install Pip as well. to check if pip has been installed
 <br />
 <br />
 
+5. To install Postgresql
+`https://postgresapp.com/`
+<br />
+download app. Check server is running.
+
+6. To install Postico (GUI Client for Postgresql)
+`https://eggerapps.at/postico/`
+
 ### Once you have the above installed do the following:
 
 1. Create virtualenv proj where u want to setup project - we will call it proj_folder for now
