@@ -4,4 +4,4 @@ from django.http import HttpResponse, request
 from django.shortcuts import render
 
 def index(request):
-    return HttpResponse('Dashboard Page')
+    return render(request, 'dashboard/index.html')
