@@ -1,12 +1,22 @@
 #calendar {
-  max-width: 100%;
+  max-width: 900px;
   margin: 0 auto;
   background: #eeeeee;
 }
 
-.fc-agenda-view .fc-day-grid .fc-row{
-  display: none;
+  #calendar .visitEvent {
+    background-color: #f7fef1; 
+    color: #444;
+    border-color:#f7fef1;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
+
+  #dialog{background: #fff; min-width: 560px; width: 700px; box-shadow: 0 5px 15px #333; border: 1px solid #c5c5c5; padding: 20px; position: absolute!important; bottom: -150px; left: 25%; z-index: 9999; display: none;}
+  .close{cursor: pointer; position: absolute; right: 10px; top: 10px;}
+
+ .destination{background: #eeeeee!important; color: #444!important; border: none!important; text-align: center; font-size: 24px!important;}
+ hr.fc-divider{padding:0!important;}
+ .fc-agenda-view .fc-day-grid .fc-row .fc-content-skeleton{padding-bottom: 0!important;}
 
 .fc-minor, .fc-minor td, .fc-time-grid .fc-slats .fc-minor td{
   border-top: none;

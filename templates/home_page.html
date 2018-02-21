@@ -53,7 +53,20 @@
                     {% endbuttons %}
                 </form>
             </div>
+            <div id="eventContent" title="Event Details" style="display:none; z-index: 999; background:#000; position:asolute; top:100;">
+                    Start: <span id="startTime"></span><br>
+                    End: <span id="endTime"></span><br><br>
+                    <p id="eventInfo"></p>
+                    <p><strong><a id="eventLink" href="" target="_blank">Read More</a></strong></p>
+                </div>
             <div id='calendar'></div>
+            <div id="dialog">
+                <div class="close">x</div>
+                <div id="title"></div>
+                <div id="imageBox"></div>
+                <div id="description"></div>
+            </div>
+
         </div>
         
     </body>
