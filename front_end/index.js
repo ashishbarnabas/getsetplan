@@ -5,7 +5,7 @@ import ListResult from './src/components/ListResults'
 
 const App = () => {
     return (
-        <View>
+        <View style={{flex:1}}>
             <Header heading={'GSP Results'}/>
             <ListResult />
         </View>

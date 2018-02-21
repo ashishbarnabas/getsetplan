@@ -1,18 +1,22 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, Image } from 'react-native';
 import Card from './Card';
 import CardSection from './CardSection';
 
 const ResultDetail = (props) => {
+    const { imageStyle, textStyle, mainImageStyle } = styles;
+    const { thumbnail_image, title, artist, image } = props.itenary;
     return (
         <Card>
             <CardSection>
-                <View style={styles.imageStyle}>
+                <Image style={imageStyle} source={{ uri: thumbnail_image}} />
+                <View style={textStyle}>
+                    <Text>{title}</Text>
+                    <Text>{artist}</Text>
                 </View>
-                <View style={styles.textStyle}>
-                    <Text>{props.itenary.title}</Text>
-                    <Text>{props.itenary.artist}</Text>
-                </View>
+            </CardSection>
+            <CardSection>
+            <Image style={mainImageStyle} source={{ uri: image}} />
             </CardSection>
         </Card>
     );
@@ -20,10 +24,18 @@ const ResultDetail = (props) => {
 
 const styles = {
     imageStyle: {
-
+        width:50,
+        height:50
     },
     textStyle: {
-        flexDirection: 'column'
+        flexDirection: 'column',
+        justifyContent: 'space-around',
+        marginLeft: 10
+    },
+    mainImageStyle: {
+        height:300,
+        flex: 1,
+        width: null
     }
 };
 
