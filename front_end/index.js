@@ -1,10 +1,14 @@
 import React from 'react';
-import { Text, AppRegistry } from 'react-native';
+import { Text, View, AppRegistry, ListView } from 'react-native';
 import Header from './src/components/Header'
+import ListResult from './src/components/ListResults'
 
 const App = () => {
     return (
-        <Header heading={'GSP Results'}/>
+        <View>
+            <Header heading={'GSP Results'}/>
+            <ListResult />
+        </View>
     );
 };
 
