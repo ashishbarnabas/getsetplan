@@ -8,8 +8,7 @@ from .views import home_page
 
 urlpatterns = [
     url(r'^$', home_page),
-    url(r'^results/', include('results.urls')),
-    url(r'^dashboard/', include('dashboard.urls')),
+    url(r'^api/', include('api.urls')),
     url(r'^admin/', admin.site.urls),
 ]
 

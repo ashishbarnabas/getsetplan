@@ -44,13 +44,13 @@ module.exports = function(grunt) {
           stdin: true,
           stderr: true
         },
-        command: 'python manage.py runserver 127.0.0.1:8000 --insecure'
+        command: 'cd api_proj && python manage.py runserver 127.0.0.1:8000 --insecure'
       },
       collectStatic: {
         options: {
             stdout: true
         },
-        command: 'echo yes | python manage.py collectstatic'
+        command: 'cd api_proj && echo yes | python manage.py collectstatic'
       }
     },
     watch: {
