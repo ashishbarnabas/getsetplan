@@ -53,31 +53,27 @@ download app. Check server is running.
 `. bin/activate`
 <br />
 
-4. Install Django
-`pip install django==1.11.4`
+4. Install Project Dependencies from requirements.txt file
+`pip install -t lib -r requirements.txt`
 <br />
 
-5. Install Dependencies
-`pip install django-bootstrap3`
-<br />
-
-6. Create a folder named `src`. cd into it and clone repo within this by using the command -->
+5. Create a folder named `src`. cd into it and clone repo within this by using the command -->
 `mkdir src && cd src && git clone https://github.com/ashishbarnabas/getsetplan.git .`
 <br />
 
-7. Install Grunt CLI (if not already present)
+6. Install Grunt CLI (if not already present)
 `npm install -g grunt-cli`
 <br />
 
-8. Install Grunt
+7. Install Grunt
 `npm install grunt --save-dev`
 <br />
 
-9. Run Grunt
+8. Run Grunt
 `grunt`
 <br />
 
-10. Server should be running at:
+9. Server should be running at:
 `http://127.0.0.1:8000/`
 <br />
 <br />
