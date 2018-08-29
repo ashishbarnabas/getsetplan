@@ -6,6 +6,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from . import serializers
 import requests
+import json
 
 # Create your views here.
 class HelloApiView(APIView):
@@ -33,7 +34,10 @@ class MapApiView(APIView):
     def get(self, request):
 
         api_key = ''
-        location = 'Paris'
-        req = requests.get('https://maps.googleapis.com/maps/api/place/autocomplete/json?input='+ location +'&types=geocode&key=AIzaSyAlI_1ZjTv7oU055ip-mdL4PEXzA9Lk0xY')
+        location = 'National Museum, New delhi'
+        req = requests.get('https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input='+ location +'&inputtype=textquery&fields=photos,formatted_address,name,rating,opening_hours,geometry&key='+ api_key).json()
+        
+        
+        
         return Response(req)
     
